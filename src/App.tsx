@@ -3,9 +3,9 @@ import "./sass/main.scss";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-    </div>
+    </>
   );
 }
 
