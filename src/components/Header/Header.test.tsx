@@ -7,8 +7,6 @@ describe("Testing for Header.tsx", () => {
   it("Header has title name eRedBook Website", () => {
     render(<Header />);
     const title = screen.getByTestId("header__title");
-    // console.log(title);
-
     expect(title.innerText).toBe("eRedBook Website");
   });
 });
